@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+env/
+venv/
+ENV/
+*.env
+*.sqlite3
+instance/
+
+# Flask
+*.log
+
+# Node
+node_modules/
+build/
+dist/
+.npm/
+*.log
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# React
+frontend/node_modules/
+frontend/build/
+
+# Docker
+*.pid
+
+# Misc
+*.swp
+*.swo
+
+# Ignore local data
+*.local
+
+# Ignore images uploaded by users (if any)
+uploads/
+
+# Ignore model files (optional, if you don't want to commit large binaries)
+backend/models/MobileNetSSD_deploy.caffemodel
+backend/models/MobileNetSSD_deploy.prototxt
